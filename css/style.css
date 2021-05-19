@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    background-color: #000000;
+    color: #000000;
+}
+header {
+    width: 110%;
+    height: 400px;
+    float:left;
+}
+header div {
+    width: 100%;
+    float:left;
+}
+#logo img {
+    height: 400px;
+    width: 91%;
+}
+nav {
+    width: 100%;
+    height: 40px;
+    background-color: #cccccc98;
+    float:left;
+    padding: 15px;
+    padding: 15px 0px 15px 0px;
+}
+nav ul {
+    list-style: none;
+    margin-top:7px  ;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 24px;
+    margin-left: 30px;
+    color: white;
+    padding: 20px;
+}
+nav ul li a:hover {
+    color: #000;
+}
+
+main {
+    width: 100%;
+    float: left;
+    padding-top: 100px;
+    background-color: #D1AC83;
+}
+main div {
+    width: 80%;
+    margin: 0 auto;    
+}
+h1{
+    position: relative;
+    left: 650px;
+}
+.imagens {
+    width: 30%;
+    float: left;
+    margin:1%;
+    
+}
+.imagens img {
+    width: 100%;
+    border: 1px solid rgb(0, 0, 0);
+    border: 10px;
+    box-shadow: 0px 10px 15px 5px  rgb(107, 107, 107);
+}
+
+footer {
+    width: 100%;
+    float:left;
+    background-color: #cccccc98;
+    padding: 15px 0px 15px 0px;
+}
+footer p{
+    text-align: center;
+}
